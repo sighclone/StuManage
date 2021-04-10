@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909149140384",
+    "firebase_url": "https://stumanagehost-b6910-default-rtdb.firebaseio.com",
+    "project_id": "stumanagehost-b6910",
+    "storage_bucket": "stumanagehost-b6910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909149140384:android:9b7d9a7fe659b8c5aea0c5",
+        "android_client_info": {
+          "package_name": "com.example.student_task_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909149140384-hurgvn5ncpvom935p8jnb0khqjaolimt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.student_task_manager",
+            "certificate_hash": "1d543d37a0ed5a2a77fdf2cb439d47f08cf7bb70"
+          }
+        },
+        {
+          "client_id": "909149140384-e7od05s08i89q6k00at0suh2vqd5ltra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQdZHqhY8pvSKVUqskXHXiwsIMBioQNm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909149140384-e7od05s08i89q6k00at0suh2vqd5ltra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
