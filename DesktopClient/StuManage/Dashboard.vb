@@ -18,7 +18,7 @@ Public Class Dashboard
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
-        Label2.Text += LoginPage.UsernameT.Text + "!"
+        Label2.Text += "Currently logged in as " + LoginPage.UsernameT.Text + "!"
 
 
     End Sub
@@ -296,6 +296,7 @@ Public Class Dashboard
         AD.Show()
         AM.Show()
         AyT.Show()
+        AY.Show()
         Label10.Show()
         Label9.Show()
         Label7.Show()

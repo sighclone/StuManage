@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qYMNjb4nAZVBOH8KR+wOFV70x+eTMZ4l3R+Esy1ouhF6p6fORVCG5Hl/jLjd7Ap5+eunN6+5RfdCrGPsnP7Cig==",
+  "dgSpecHash": "yXuCWdoHeaVxlNMpi4nHhgHVveaoIdr3ZQKKRX2wltcrS2L14wsIOI3wgJdUHlp2a5PakiYjhOEOQruO5rVe+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\HakulusTest.vbproj",
+  "projectFilePath": "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\HakulusTest.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\sadhu\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
     "C:\\Users\\sadhu\\.nuget\\packages\\microsoft.bcl\\1.1.9\\microsoft.bcl.1.1.9.nupkg.sha512",

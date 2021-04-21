@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\HakulusTest.vbproj": {}
+    "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\HakulusTest.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\HakulusTest.vbproj": {
+    "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\HakulusTest.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\HakulusTest.vbproj",
+        "projectUniqueName": "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\HakulusTest.vbproj",
         "projectName": "HakulusTest",
-        "projectPath": "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\HakulusTest.vbproj",
+        "projectPath": "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\HakulusTest.vbproj",
         "packagesPath": "C:\\Users\\sadhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadhu\\Source\\Repos\\HakulusTest\\obj\\",
+        "outputPath": "C:\\Users\\sadhu\\Source\\Repos\\StuManage\\DesktopClient\\StuManage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
