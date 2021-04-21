@@ -18,29 +18,39 @@ Public Class registerForm
     End Sub
 
     Private Sub Register_Click(sender As Object, e As EventArgs) Handles Register.Click
-        Try
-            Dim NewUser As New MyUser() With
+
+        Dim NewUser As New MyUser() With
             {
             .username = reuser.Text,
             .password = repass.Text,
             .latestTask = Dashboard.TaskInputTextBox.Text
             }
+        Dim existchkr As UInteger = 0
+        Dim existchk = client.Get("Users/" + reuser.Text)
+        Dim tsk As New MyUser()
+        tsk = existchk.ResultAs(Of MyUser)
+        Try
+            If tsk.username <> Nothing Then
+                MessageBox.Show("Unable to contact server, please check your internet connection!\n\n(NOTE: If the error repeatedly occurs with an active internet connection, it could be due to limited size of server database)")
+                LoadingForm.Close()
+            Else
+                MessageBox.Show("User already exists")
+            End If
+        Catch ex As NullReferenceException
             Dim setter = client.Set("Users/" + reuser.Text, NewUser)
             MessageBox.Show("Registration Successful!")
             Me.Hide()
             LoginPage.Show()
             Me.Close()
-        Catch ex As Exception
-            MessageBox.Show("Unable to contact server, please check your internet connection!")
-            LoadingForm.Close()
         End Try
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If repass.PasswordChar = "" Then
-            repass.PasswordChar = "*"
-        Else
-            repass.PasswordChar = ""
-        End If
+    Private Sub Button1_Hover(sender As Object, e As EventArgs) Handles Button1.MouseHover
+        repass.PasswordChar = ""
     End Sub
+
+    Private Sub Button1_Leave(sender As Object, e As EventArgs) Handles Button1.MouseLeave
+        repass.PasswordChar = "*"
+    End Sub
+
 End Class
